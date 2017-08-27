@@ -117,9 +117,6 @@ div.delivery {
   line-height: 1.4;
   width: 5rem;
 }
-.about {
-  height: 8rem;
-}
 .about .container {
   display: flex;
   margin-bottom: 5rem;
@@ -182,4 +179,155 @@ footer .container {
 footer span {
   padding-top: 4rem;
   padding-bottom: 4rem;
+}
+@media only screen and (min-width:1025px) and (max-width: 1600px) {
+  header span.tab {
+    display: none;
+    visibility: hidden;
+  }
+}
+@media only screen and (min-width:481px) and (max-width:1024px) {
+  .banner {
+    padding-top: 0;
+    height: 22rem;
+  }
+  header span.tab {
+    display: none;
+    visibility: hidden;
+  }
+  .container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .headline {
+    margin-top: 5rem;
+  }
+  .headline .box {
+    font-size: 1.33rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    margin-right: 2rem;
+  }
+  .services .container {
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+  .about {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  .philosophy {
+    width: 14rem;
+  }
+  .appointments {
+    width: 14rem;
+  }
+  .appointments p {
+    width: 14rem;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .banner {
+    padding-top: 0;
+    background-position: 20%;
+    height: 17rem;
+  }
+  header span {
+    display: none;
+    visibility: hidden;
+  }
+  header .navigation {
+    display: none;
+    visibility: hidden;
+  }
+  header span.tab {
+    display: inline;
+    visibility: visible;
+    padding-left: 13rem;
+  }
+  header {
+    width: 100%;
+  }
+  .container {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .headline .box {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-size: 1rem;
+  text-align: center;
+  }
+  .headline {
+    margin-left: 0;
+    margin-top: 9rem;
+    width: 25.7rem;
+  }
+  .headline div.box {
+    width: 15.7rem;
+  }
+  .services {
+    text-align: center;
+    margin-top: 5.77rem;
+  }
+  .services .container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 0;
+
+
+  }
+  .exams {
+    padding-bottom: 1.54rem;
+    padding-left: 11rem;
+  }
+  .fittings {
+    padding-bottom: 1.54rem;
+    padding-left: 11rem;
+  }
+  .delivery {
+    padding-bottom: 3.77rem;
+    padding-left: 11rem;
+  }
+  .about .container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 14rem;
+  }
+  .about .appointments {
+    width: 100%;
+    margin-top: 1rem;
+  }
+  .about .philosophy {
+    width: 100%;
+  }
+  .philosophy h1 {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  .about h1 {
+    width: 100%;
+  }
+  .philosophy p {
+    width: 100%;
+    font-size: 0.77rem;
+    font-family: helvetica;
+
+  }
+  .appointments p {
+    width: 100%;
+    font-family: helvetica;
+    font-size: 0.77rem;
+  }
+  footer span {
+    display: none;
+    visibility: hidden;
+  }
+  footer .copyright {
+    padding-left: 11rem;
+  }
 }
